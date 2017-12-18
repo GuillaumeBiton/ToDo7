@@ -1,0 +1,17 @@
+/* add button activation */
+.ios a.demo-send-message-link i {
+  font-size: 26px;
+}
+.ios .messagebar:not(.messagebar-with-value):not(.messagebar-attachments-visible) a.demo-send-message-link {
+  pointer-events: none;
+  color: #8e8e8e;
+}
+.md .messagebar:not(.messagebar-with-value):not(.messagebar-attachments-visible) a.demo-send-message-link {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* todo done */
+.done {
+  text-decoration: line-through;
+}

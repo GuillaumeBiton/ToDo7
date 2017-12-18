@@ -1,0 +1,24 @@
+{
+  "name": "todo7",
+  "version": "0.2.0",
+  "description": "ToDo manager powered by Framework7",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "framework7"
+  ],
+  "author": "Guillaume Biton",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.2.0"
+  },
+  "dependencies": {
+    "framework7": "^2.0.2",
+    "framework7-icons": "^0.8.9",
+    "simple-storejs": "^1.0.0"
+  }
+}
